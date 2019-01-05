@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <script type="text/javascript" src="js/js.js"></script>
+    <title>Jogo da Velha</title>
+    <link rel="shortcut icon" href="img/icon.png" />
+</head>
+
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+    <section class="corpo">
+        <div id="jogo">
+            <table>
+                <tr>
+                    <td align="center" valign="middle" id="1_1" onclick="realizarJogada(this.id);verificarCombinacoes();"></td>
+                    <td align="center" valign="middle" id="1_2" onclick="realizarJogada(this.id);verificarCombinacoes();"></td>
+                    <td align="center" valign="middle" id="1_3" onclick="realizarJogada(this.id);verificarCombinacoes();"></td>
+                </tr>
+                <tr>
+                    <td align="center" valign="middle" id="2_1" onclick="realizarJogada(this.id);verificarCombinacoes();"></td>
+                    <td align="center" valign="middle" id="2_2" onclick="realizarJogada(this.id);verificarCombinacoes();"></td>
+                    <td align="center" valign="middle" id="2_3" onclick="realizarJogada(this.id);verificarCombinacoes();"></td>
+                </tr>
+                <tr>
+                    <td align="center" valign="middle" id="3_1" onclick="realizarJogada(this.id);verificarCombinacoes();"></td>
+                    <td align="center" valign="middle" id="3_2" onclick="realizarJogada(this.id);verificarCombinacoes();"></td>
+                    <td align="center" valign="middle" id="3_3" onclick="realizarJogada(this.id);verificarCombinacoes();"></td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div class="botao">
+            <button onclick="realizarUmNovoJogo()">Novo Jogo</button>
+        </div>
+
+        <h3>Jogador 1 = <span id="x">X</span></h3>
+        <h3>Jogador 2 = <span id="o">O</span></h3>
+    </section>
+</body>
+
+</html>

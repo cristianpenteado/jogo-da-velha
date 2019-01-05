@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: #000;
+    color: #ffffff;
+}
+.corpo{
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    margin-top: 50px;
+}
+
+td {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30pt;
+    background-color: #ffffff;
+}
+
+h1 {
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    background: #f5f5ff;
+    font-weight: bolder;
+}
+.botao{
+    width: 80px;
+    height: 20px;
+    margin: auto;
+}
+span#x{
+    color: red;
+}
+span#o{
+    color: blue;
+}
